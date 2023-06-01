@@ -28,16 +28,9 @@ document.getElementById("calc").addEventListener("click", (e) =>{
         let f = Number(end.value);
         let p = Number(step.value);
 
-        console.log(i)
-
         for(let c = i; c <= f; c += p){
             res.innerHTML += `\u{1F449} ${c}`
-            console.log(c)
         }
     }
-        
-
-
-    
 });
 

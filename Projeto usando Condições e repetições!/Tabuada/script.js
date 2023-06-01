@@ -23,6 +23,5 @@ function create() {
             select.appendChild(option);
 
         }   
-        console.log(select)
     }
 }

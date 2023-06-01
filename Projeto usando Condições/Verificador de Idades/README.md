@@ -1,7 +1,7 @@
-This project in english is "Age checker"
+This project in English is called "Age Checker."
 
-You type your birth date and check your gender
+You input your birth date and gender and the program checks your age.
 
-It'll appear an image and text saying if you're a kid, teenager, adult ou old person
+Afterwards, an image and text will appear indicating whether you are a child, teenager, adult, or elderly person.
 
-All these with changes in html using script JS
+All of this will be done through changes in HTML using the JS script.

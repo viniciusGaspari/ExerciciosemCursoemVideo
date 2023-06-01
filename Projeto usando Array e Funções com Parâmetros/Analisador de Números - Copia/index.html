@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hora do Dia</title>
+    <title>Analisador de Números</title>
 </head>
 
 <body>
@@ -17,19 +17,24 @@
 
     <main>
 
-        <div id="inputLabel">
-            
+        <div id="inputLabelButton">
+            <label for="number">Número (entre 1 a 100): <input type="number" id="number"></label>
+            <button onclick="create()">Adicionar</button>
         </div>
 
-        <div id="select"> 
-            <select name="" id=""></select>
+        <div id="selectBox"> 
+            <select id="select" size="5">
+                
+            </select>
+            <button onclick="analize()" id="analize">Analisar</button>
         </div>
 
-        <div id="text">
+        <div id="res">
 
         </div>
-
     </main>
+
+
 
     <footer>
         © CursoemVideo
